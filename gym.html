@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+    .navbar {
+    
+        background-color: #c11f1f; /* Change to the color of your choice */
+    }
+    .gym-images {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .gym-images img {
+        width: calc(33.33% - 10px); 
+        margin-right: 10px; 
+    }
+
+    .gym-images img:last-child {
+        margin-right: 0;
+    }
+    .custom-paragraph {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #333;
+        text-align: justify;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px rgba(233, 10, 10, 0.1);
+        background-color: #f8f9fa;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    footer {
+        background-color: #230dc7;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+</style>
+<title>Freedom Gym</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/about.html">Freedom Gym</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/gym.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Other Locations</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Experience
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Beginner</a></li>
+                  <li><a class="dropdown-item" href="#"> Expert </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Trainer login</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+    <div class="container mt-5">
+        <div class="gym-images">
+            <img src="gym1.jfif" alt="Freedom Gym Image">
+            <img src="gym2.jpg" alt="Freedom Gym Image">
+            <img src="gym3.jfif" alt="Freedom Gym Image">
+        </div>
+        <p class="custom-paragraph">Welcome to Freedom Gym, where fitness meets inclusivity. At Freedom Gym, we believe that everyone should have access to quality fitness facilities and expertise, regardless of their experience level. Our unique approach to membership reflects our commitment to equality and affordability. We offer a tiered membership system where beginners, defined by their muscle to fat ratio, enjoy the freedom of a one-time annual payment at a nominal fee. Meanwhile, our expert members, those more seasoned in their fitness journey, benefit from a monthly membership subscription. This innovative model ensures that regardless of where you are in your fitness journey, Freedom Gym is your partner in achieving your goals. Join us today and experience the freedom to thrive!</p>
+        
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="container">
+                    <p>Sign Up today</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Freedom Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
